@@ -1,3 +1,161 @@
 body {
     padding-top: 5rem;
 }
+
+h1{
+    padding-bottom: 20px;
+}
+
+label.form-label{
+    padding-top: 15px;
+    font-size: 20px;
+
+}
+
+.propForm{
+    background-color: #F4F4F5;
+    width: 70%;
+}
+
+.formCont{
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.title input{
+    border-radius: 5px;
+    border: 0px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 400px;
+    box-shadow: 5px 5px #DFDFE2;
+}
+
+.description textarea{
+    border-radius: 5px;
+    border: 0px solid;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 400px;
+    box-shadow: 5px 5px #DFDFE2;
+}
+
+.rooms{
+    display: flex;
+    grid-gap: 200px;
+}
+
+.rooms input, .price input, .locat input, .photo input {
+    border-radius: 5px;
+    border: 0px solid;
+    box-shadow: 5px 5px #DFDFE2;
+}
+
+.priceType{
+    display: flex;
+    grid-gap: 200px;
+}
+
+select{
+    border-radius: 5px;
+    border: 0px solid;
+    box-shadow: 5px 5px #DFDFE2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+}
+
+.properties{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.propCard{
+    background-color: #ffffff;
+    box-shadow: 0 0 3px black;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.propCard img{
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.propCard a{
+    background-color:#DFDFE2;
+    display: block;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+ .details{
+    padding: 0 10px;
+ }
+
+.prop{
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 700px;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px black;
+  
+
+
+}
+.prop .price_type{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    grid-gap: 30px;
+}
+.prop .rms{
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+    
+}
+
+
+.prop img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prop .propdetails{
+    height: 100%;
+    padding: 17px;
+}
+
+.property h3{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.btn{
+    padding: 5px;
+    background-color: #DFDFE2;
+}
